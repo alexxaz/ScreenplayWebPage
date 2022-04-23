@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Successful search",
+        "description": "",
+        "id": "google-search;successful-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is in the google search",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user tries to search a word",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "word"
+                ]
+              },
+              {
+                "cells": [
+                  "automation"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user find the word",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "  As a user I want to search the word automation in the google browser",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/trn_googlesearch.feature",
+    "tags": []
+  }
+]
