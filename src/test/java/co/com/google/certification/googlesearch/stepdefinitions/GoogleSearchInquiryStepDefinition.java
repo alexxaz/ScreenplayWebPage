@@ -1,13 +1,26 @@
 package co.com.google.certification.googlesearch.stepdefinitions;
 
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.actors.OnlineCast;
+
+import static co.com.google.certification.googlesearch.interactions.commons.OpenTheBrowser.navigateForGoogle;
+import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 public class GoogleSearchInquiryStepDefinition {
 
-    @Given("^user is in the google search$")
-    public void userIsInTheGoogleSearch() throws Exception {
+    @Before
+    public void initialConfiguration(){
+        setTheStage(new OnlineCast());
+
+    }
+
+    @Given("^(.*) is in the google search$")
+    public void userIsInTheGoogleSearch(String actor) throws Exception {
+        theActorCalled(actor).wasAbleTo(navigateForGoogle());
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
     }
