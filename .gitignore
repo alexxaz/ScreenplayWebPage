@@ -1,0 +1,100 @@
+# Clases compiladas
+/*.class
+ScreenPlayWebPage_Manual/.*class
+/*.classpath
+/*.project
+
+#sonar
+.sonarlint
+.sonarlint/
+
+#Metadata
+.metadata
+.metadata/
+
+# Logs
+ScreenPlayWebPage/logs/
+ScreenPlayWebPage_Manual/logs/
+ScreenPlayWebPage/*.logs
+ScreenPlayWebPage_Manual/*.logs
+ScreenPlayWebPage/log/
+ScreenPlayWebPage_Manual/log/
+ScreenPlayWebPage/*.log
+ScreenPlayWebPage_Manual/*.log
+
+# Archivos comprimidos
+ScreenPlayWebPage/*.war
+ScreenPlayWebPage/*.nar
+ScreenPlayWebPage/*.ear
+ScreenPlayWebPage/*.zip
+ScreenPlayWebPage/*.tar.gz
+ScreenPlayWebPage/*.rar
+ScreenPlayWebPage_Manual/*.war
+ScreenPlayWebPage_Manual/*.nar
+ScreenPlayWebPage_Manual/*.ear
+ScreenPlayWebPage_Manual/*.zip
+ScreenPlayWebPage_Manual/*.tar.gz
+ScreenPlayWebPage_Manual/*.rar
+
+# Reportes serenity
+ScreenPlayWebPage_Manual/target/
+ScreenPlayWebPage/target/
+target/
+
+# Gradle
+.gradle/
+ScreenPlayWebPage/.gradle/
+ScreenPlayWebPage/build/
+ScreenPlayWebPage_Manual/.gradle
+ScreenPlayWebPage_Manual/build/
+
+# No ignorar el Gradle Wrapper
+!ScreenPlayWebPage_Manual/gradle/wrapper/gradle-wrapper.jar
+!ScreenPlayWebPage/gradle/wrapper/gradle-wrapper.jar
+
+# Archivos eclipse
+/ScreenPlayWebPage/.classpath
+ScreenPlayWebPage_Manual/.classpath
+/ScreenPlayWebPage/.project
+ScreenPlayWebPage_Manual/.project
+/ScreenPlayWebPage/.metadata/
+ScreenPlayWebPage_Manual/.metadata
+ScreenPlayWebPage/bin/
+ScreenPlayWebPage_Manual/bin/
+ScreenPlayWebPage/tmp/
+ScreenPlayWebPage_Manual/tmp/
+ScreenPlayWebPage/*.tmp
+ScreenPlayWebPage_Manual/*.tmp
+ScreenPlayWebPage/*.bak
+ScreenPlayWebPage_Manual/*.bak
+ScreenPlayWebPage/*.swp
+ScreenPlayWebPage_Manual/*.swp
+ScreenPlayWebPage/*~.nib
+ScreenPlayWebPage_Manual/*~.nib
+
+/ScreenPlayWebPage/.settings/
+ScreenPlayWebPage_Manual/.settings/
+ScreenPlayWebPage/.loadpath
+ScreenPlayWebPage_Manual/.loadpath
+ScreenPlayWebPage/.recommenders
+ScreenPlayWebPage_Manual/.recommenders
+ScreenPlayWebPage/.idea/
+ScreenPlayWebPage_Manual/.idea/
+ScreenPlayWebPage/out/
+ScreenPlayWebPage_Manual/out/
+
+#Archivos Intellij
+.idea/
+ScreenPlayWebPage/*.iml
+*.iml
+
+# Locally stored "Eclipse launch configurations"
+ScreenPlayWebPage/*.launch
+ScreenPlayWebPage_Manual/*.launch
+
+### Sonar ###
+#Sonar generated dir
+ScreenPlayWebPage_Manual/.sonar/
+ScreenPlayWebPage/.sonar/
+ScreenPlayWebPage_Manual/.sonarlint/
+ScreenPlayWebPage/.sonarlint/
