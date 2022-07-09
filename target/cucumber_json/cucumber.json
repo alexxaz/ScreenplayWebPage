@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44012600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AuthenticationStepDefinition.initialConfiguration()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Successful login SauceLab",
+        "description": "",
+        "id": "authentication-saucelab;successful-login-saucelab;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4093671200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is going to SauceLab web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 0
+                }
+              ],
+              "location": "AuthenticationStepDefinition.userIsGoingToSauceLabWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1706371200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user tries to login with the next information",
+            "match": {
+              "location": "AuthenticationStepDefinition.userTriesToLoginWithTheNextInformation(Credentials\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461472500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies is success login",
+            "match": {
+              "location": "AuthenticationStepDefinition.userVerifiesIsSuccessAuthenticationWasSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Authentication SauceLab",
+    "description": "  As a user I want to login the web SauceLab",
+    "id": "authentication-saucelab",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/trn_Authentication.feature",
+    "tags": []
+  }
+]
